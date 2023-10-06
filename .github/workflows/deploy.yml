@@ -31,4 +31,4 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: ${{ secrets.DOCKERHUB_USERNAME }}/be-images:latest
+        tags: ${{ secrets.DOCKERHUB_USERNAME }}/km5-images:latest
